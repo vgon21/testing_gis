@@ -1,0 +1,5 @@
+Using passport.js
+https://dev.to/jscrambler/how-to-build-authentication-in-angular-using-node-and-passport-3igg
+
+Using JSON web tokens
+https://www.toptal.com/angular/angular-6-jwt-authentication
