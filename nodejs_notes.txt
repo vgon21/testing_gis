@@ -1,0 +1,133 @@
+proxy=http://DEFENSE\vgon:Atowango11@dfsrvproxy3.intracomdefense.com:8080/
+https-proxy=http://DEFENSE\vgon:Atowango11@dfsrvproxy3.intracomdefense.com:8080/
+strict-ssl=false
+registry=http://registry.npmjs.org
+
+proxy settings
+---------------
+npm config set proxy http://dfsrvproxy1.intracomdefense.com:8080
+npm config set https-proxy http://dfsrvproxy1.intracomdefense.com:8080
+
+
+environment variables
+------------------------
+system path : C:\Program Files\nodejs\
+user path : C:\Users\vgon\AppData\Roaming\npm
+			C:\Users\vgon\AppData\Local\Programs\Microsoft VS Code\bin
+
+visual studio code (in centos 7 https://linuxize.com/post/how-to-install-visual-studio-code-on-centos-7/)
+node.js
+nodejs modules intellisense 1.5.0 extension
+npm intellisense 1.3.0 extension
+
+typescript and javascript
+Latest typescript and javascript grammar 0.0.53  microsoft  extension NOT INSTALLED
+typescript hero 3.0.0
+
+
+angular
+Angular language service 0.900.3 extension
+https://material.angular.io/components/categories    material components Angular
+
+
+Derek Banas OO Javascript....very interesting from ECMA 5.1 downwards
+double equals vs triple equals  (https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a he)
+
+
+nodejs the right way
+=====================
+enable telnet in windows 10 -> run this (dism /online /Enable-Feature /FeatureName:TelnetClient)
+
+npm init to make a package.json project file
+npm show <package> version   (to show the version of an installed npm package)
+
+npm start or node "name of main javascript file"  to start running a nodejs site
+
+To test that the module was installed successfully, run this command:
+$ node --harmony -p -e 'require("zmq")'
+
+Express framework
+npm install express --save
+version 4.17.1
+
+modules in Node.js (https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
+
+
+Angular Udemy
+===================
+Update npm
+------------
+Run [sudo] npm install -g npm  (sudo  is only required on Mac/ Linux)
+
+Updating the CLI for Angular
+
+[sudo] npm uninstall -g angular-cli @angular/cli 
+
+npm cache clean 
+
+[sudo] npm install -g @angular/cli
+
+angular commands
+-----------------
+ng server (runs a project)
+ng new <name> (builds a brand new project)
+ng generate component <name> (generates a component automatically)
+ng generate module app-routing --module app --flat  (generate a module without a subfolder using --flat)
+
+
+my-dream-app   Section 1
+-- 01_11 install bootstrap locally in the project  
+npm install --save bootstrap@3   -> version 3
+angular.json   -> to change the styles
+
+-- 02_13 - 02_16 app_component.ts  is the main point...
+build components (building block of an angular application) with their own html, styling, business logic etc.
+A component is a class... We use export with the name of the class to be able to use this component
+A decorator '@' is a class enrichment -> We transform the class into something else
+	The selector is actually there as html tag
+	The selector's name should be unique
+	The templateUrl describes the html page
+-- 02_17	
+	Components are bundled into Modules(packages)
+	For this tutorial we ll have only one module
+	We have to declare the Component...ng does not parse the files automatically to find components etc.
+	Typescript knows how to bundle .ts files so we dont have to include .ts at the imports
+-- 02_19  alternative way of producting components using CLI & Nesting	
+	etc.  ng generate component servers
+-- 02_20 we can change the templateUrl to template in servers.component.ts file and put in there the contents
+   of servers.component.html e.g. template: '<app-server></app-server><app-server></app-server>'
+   We will have the same result as before
+   All components MUST HAVE A TEMPLATE...they may not have selector or style
+-- 02_21 just like the template we can have replace styleUrls with styles in order to put a style directly in here
+-- 02-22 QUESTION ???? selector: '[app-servers]'   does not work
+-- 02-30 $event contains the data related to the fired event
+-- 02-35 Directives are instructions in the DOM
+	Directives have selector. Components we could say are directives.
+	Directives with template and without template
+	Here, in this chapter we see built-in directives
+-- 02-37 ngIf (it is a structural directive, it has a * in front of it) the DOM element may not be added in the DOM at all
+-- 02-38 ngStyle (it is an attribute directive, they look like standard HTML elements)	
+		[ngStyle] it is important to understand that in this case we bind to a property of a directive
+-- 02-39 ngClass allows us to dynamically add/remove css classes. If a condition is valid then it adds a css class
+		PROBLEM with ngClass...although it is not so important case
+-- 02-40 ngFor (it is a structural directive)
+project 01.11_bootstrap up to here
+
+
+-- 03-46 download prj-start.zip	
+-- 03-47 when running "ng generate component name" the app.module.ts file is updated automatically
+											 --spec false for not producing a testing file	...spec.ts
+		 the user may use a path to put the new component recipes/recipe-list
+
+https://www.typescriptlang.org/docs/handbook/classes.html
+https://www.techiediaries.com/angular-seo-title-and-meta-tags/
+https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
+
+
+-- 11
+
+
+Making HTTP requests
+Setup Firebase
+-- 18
+	
