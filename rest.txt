@@ -1,0 +1,2 @@
+Tutorial with rest to access mysql from Angular
+https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql
