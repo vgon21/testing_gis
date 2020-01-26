@@ -2,4 +2,18 @@ Using passport.js
 https://dev.to/jscrambler/how-to-build-authentication-in-angular-using-node-and-passport-3igg
 
 Using JSON web tokens
+
+What is JSON Web Tokens
+https://blog.angular-university.io/angular-jwt/
+
 https://www.toptal.com/angular/angular-6-jwt-authentication
+
+
+VERY GOOD
+https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql
+
+
+
+user: name, password groupId, description, id
+group: name, description, id
+ACL: name, page, r/w/n, id
