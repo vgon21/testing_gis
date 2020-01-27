@@ -30,5 +30,7 @@ Angular with rest and Material components VERY GOOD !!!
 https://www.freecodecamp.org/news/angular-8-tutorial-in-easy-steps/
 
 
+Bootstrap 4 components
+https://getbootstrap.com/docs/4.0/components/navbar/
 Material components
 https://material.angular.io/components/categories
