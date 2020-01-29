@@ -128,6 +128,7 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 -- 05-65 USEFUL Communication between components Introduction
 -- 05-66 Implementation of 65 
 	68 very good BUT PROBLEM with @Output (cannot see the buttons push to have results)
+	Another example to play with (https://dzone.com/articles/understanding-output-and-eventemitter-in-angular)
 
 -- 11
 
