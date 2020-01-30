@@ -142,10 +142,13 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 -- 09 Services and dependency injection
 	It includes @output example as well  in "services-start" downloadable project BEFORE WE TOUCH for services
 -- 09-107 This should be the starting point
---09-110 IMPORTANTThe service is declared in three places, then we have three different instances and we see that UI is
+-- 09-110 IMPORTANTThe service is declared in three places, then we have three different instances and we see that UI is
 	not updated correctly...We must only one instance of AccountService in app.component.ts
+-- 09-112 cross component communication
 
--- 11
+-- 11 ROUTING !!!
+-- 11-123 -> 127
+-- 11-132 -> 133  Fetching parameters from URL
 
 
 Making HTTP requests
