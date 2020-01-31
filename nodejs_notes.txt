@@ -162,8 +162,6 @@ We ngOnDestroy in .ts file of the component
 -- 15-190 Validation
 
 -- 18  HTTP REQUESTS
-
-Making HTTP requests
 Setup Firebase
--- 18
+
 	
