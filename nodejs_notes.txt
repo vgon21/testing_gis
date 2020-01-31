@@ -170,5 +170,6 @@ Setup Firebase
 	a new javascript object and finally we add an id:key to use the serial number automatically produced
 	as id of the javascript object.
 	The postsArray is used as input to .subscribe
+-- 18-260 stuck here	
 
 	
