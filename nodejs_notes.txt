@@ -163,5 +163,12 @@ We ngOnDestroy in .ts file of the component
 
 -- 18  HTTP REQUESTS
 Setup Firebase
+-- 18-256 in post example in import { map } the from is 'rxjs/operators' and not operator
+	map function rewraps the data into an observable so that we are able to use it after PIPE
+	After map we ll take a clean array of objects, instead of strange keys etc.
+	... pulls out all key-value pairs from the nested object responseData[key], we use {} to make
+	a new javascript object and finally we add an id:key to use the serial number automatically produced
+	as id of the javascript object.
+	The postsArray is used as input to .subscribe
 
 	
