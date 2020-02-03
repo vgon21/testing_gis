@@ -1,3 +1,6 @@
+Very good
+https://blog.soshace.com/json-web-authentication-with-angular-8-and-nodejs/
+
 Using passport.js
 https://dev.to/jscrambler/how-to-build-authentication-in-angular-using-node-and-passport-3igg
 
