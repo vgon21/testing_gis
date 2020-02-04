@@ -26,7 +26,7 @@ typescript hero 3.0.0
 
 
 angular
-Angular language service 0.900.3 extension
+Angular language service 0.900.9 extension
 https://material.angular.io/components/categories    material components Angular
 
 
