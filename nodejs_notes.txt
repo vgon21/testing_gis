@@ -171,7 +171,7 @@ code written till here	     2020/02/05
       140  code to go to editServer page VERY USEFUL because it adds code so that not to allow access to a user
       141  configuring and maintaining !!!! the queryparameters....queryParamsHandling
       		using the last minute of this video we can be sure that we use the last information on query parameters
-      
+142-152 in speed...      
 
 -- 13 Observables (data sources coming from user actions, http requests etc. It is about asynchronous tasks that
 we don't want to block our program). Observable and the Observer (our code). Observer handles data, error, completion.
