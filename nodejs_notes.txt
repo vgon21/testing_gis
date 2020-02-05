@@ -148,7 +148,12 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 
 -- 11 ROUTING !!!
 -- 11-123 -> 127
--- 11-132 -> 133  Fetching parameters from URL
+	127 -> what to do to avoid loading application when pressing some link !!!!! (routerLink)
+	129 -> style the active router link...special handle for the '/' root link
+	130 -> how to navigate using a button etc.... inject Router into the constructor of the typescript class
+	131 -> ActivatedRoute holds the currently activated route (relativeTo property). So inject the ActivatedRoute object
+-- 11-132 -> Passing parameters
+      133 -> Fetching parameters from URL 133 use ActivatedRoute again here
 
 -- 13 Observables (data sources coming from user actions, http requests etc. It is about asynchronous tasks that
 we don't want to block our program). Observable and the Observer (our code). Observer handles data, error, completion.
