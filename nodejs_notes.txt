@@ -153,7 +153,25 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 	130 -> how to navigate using a button etc.... inject Router into the constructor of the typescript class
 	131 -> ActivatedRoute holds the currently activated route (relativeTo property). So inject the ActivatedRoute object
 -- 11-132 -> Passing parameters
-      133 -> Fetching parameters from URL 133 use ActivatedRoute again here
+      133 -> Fetching parameters from URL 133 use ActivatedRoute again here. We use it to get url parameters.
+      		See user.component.ts
+      134 -> The 133 could break...how we solve this.... If we add one more link like "Anna" then when we press
+      		this link the info wont load... Use of Observables because here we have an asynchronous task...
+		Using the code this.route.params we listen to params changes
+      135 -> behind the scenes Angular removes the subscription automatically. This section shows how
+      		a manual destructor may be used.
+      136 -> queryParams, fragment (servers.component.html) 	
+      	     At the second half we do this programmatically	
+      137 -> retrieve querys and fragments
+      	     ActivatedRoute is used here as well (edit-server.component.ts)	
+code written till here	     2020/02/05
+      138 -> constructing dynamic links for navigation
+      	Add code modifications here to be able to proceed to 139
+      139  for child routes.....child routes....separate outlets are required
+      140  code to go to editServer page VERY USEFUL because it adds code so that not to allow access to a user
+      141  configuring and maintaining !!!! the queryparameters....queryParamsHandling
+      		using the last minute of this video we can be sure that we use the last information on query parameters
+      
 
 -- 13 Observables (data sources coming from user actions, http requests etc. It is about asynchronous tasks that
 we don't want to block our program). Observable and the Observer (our code). Observer handles data, error, completion.
