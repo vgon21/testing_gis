@@ -171,7 +171,15 @@ code written till here	     2020/02/05
       140  code to go to editServer page VERY USEFUL because it adds code so that not to allow access to a user
       141  configuring and maintaining !!!! the queryparameters....queryParamsHandling
       		using the last minute of this video we can be sure that we use the last information on query parameters
-142-152 in speed...      
+      142  page not found case
+      144 keep routing in a single module
+      145 Guards not important
+      146-147 Protecting routes with canActivate... A service for protecting routes  AuthGuard implements CanActivate interface
+      		147 protect children
+      149 CanDeactivate   protecting the user of accidentally go away a "page"	
+      150 Error page that could be used by all components
+      151 VERY VERY IMPORTANT !!! dynamically define if a page is to be displayed or not
+      -152 in speed...      
 
 -- 13 Observables (data sources coming from user actions, http requests etc. It is about asynchronous tasks that
 we don't want to block our program). Observable and the Observer (our code). Observer handles data, error, completion.
