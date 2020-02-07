@@ -2,3 +2,7 @@ Tutorial with rest to access mysql from Angular
 https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql
 
 https://malcoded.com/posts/angular-backend-express/
+
+
+Good on theory on how node.js works (threading etc.) and promises
+https://itnext.io/javascript-promises-with-node-js-e8ca827e0ea3
