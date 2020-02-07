@@ -4,6 +4,9 @@ https://blog.soshace.com/json-web-authentication-with-angular-8-and-nodejs/
 https://www.positronx.io/build-secure-jwt-token-based-authentication-api-with-node/
 https://www.positronx.io/angular-jwt-user-authentication-tutorial/
 
+https://jasonwatmore.com/post/2019/08/06/angular-8-role-based-authorization-tutorial-with-example
+https://jasonwatmore.com/post/2019/06/22/angular-8-jwt-authentication-example-tutorial
+
 Using passport.js
 https://dev.to/jscrambler/how-to-build-authentication-in-angular-using-node-and-passport-3igg
 
