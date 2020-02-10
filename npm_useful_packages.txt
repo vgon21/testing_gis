@@ -1,5 +1,9 @@
 https://www.npmjs.com/package/systeminformation
 
+socket.io
+socket.io auth
+https://www.npmjs.com/package/socketio-jwt-auth
+
 
 npm instal -S promise
 
