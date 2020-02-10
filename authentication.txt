@@ -1,6 +1,9 @@
 Very good
 https://blog.soshace.com/json-web-authentication-with-angular-8-and-nodejs/
 
+Short explanation of JWT with angular example
+https://codinglatte.com/posts/angular/role-based-authorization-in-angular-route-guards/
+
 https://www.positronx.io/build-secure-jwt-token-based-authentication-api-with-node/
 https://www.positronx.io/angular-jwt-user-authentication-tutorial/
 
