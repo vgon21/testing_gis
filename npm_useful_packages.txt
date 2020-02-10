@@ -4,6 +4,9 @@ socket.io
 socket.io auth
 https://www.npmjs.com/package/socketio-jwt-auth
 
+NGX Socket IO
+https://www.npmjs.com/package/ngx-socket-io
+
 
 npm instal -S promise
 
