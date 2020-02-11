@@ -187,7 +187,7 @@ Angular embraces Observables. It is offered by rxjs package
 -- 13-171 closer look and initial example. When user leaves a component (e.g. a page) one more observables cease to exist.
 We ngOnDestroy in .ts file of the component
 -- 13-172 A custom observable
-next() emits a value
+next() emits a value, error() an error  etc.
 
 -- 15 HANDLING FORMS
 -- 15-186 Submit form
