@@ -9,6 +9,7 @@ https://www.npmjs.com/package/ngx-socket-io
 
 Socket authentication
 https://www.npmjs.com/package/socketio-jwt-auth
+https://github.com/auth0-community/auth0-socketio-jwt
 
 npm instal -S promise
 
