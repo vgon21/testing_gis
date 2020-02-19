@@ -40,3 +40,6 @@ https://material.angular.io/components/categories
 
 MySQL CRUD example
 https://dzone.com/articles/tutorial-connect-your-angular-app-to-mysql
+
+sidebar
+https://keepgrowing.in/angular/how-to-build-a-custom-collapsible-sidebar-navigation-with-angular-6/
