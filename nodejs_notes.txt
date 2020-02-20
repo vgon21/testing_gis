@@ -146,7 +146,7 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 -- 09-110 IMPORTANTThe service is declared in three places, then we have three different instances and we see that UI is
 	not updated correctly...We must only one instance of AccountService in app.component.ts
 -- 09-111 Injecting a service into a service  @Injectable metadata is added as a descriptor in the class that wishes
-		to use some other service
+		to use some other service. IN NEWER angular versions put @Injectable on top of every service
 -- 09-112 cross component communication
 
 -- 11 ROUTING !!!
