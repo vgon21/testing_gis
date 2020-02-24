@@ -161,14 +161,17 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 		We can use navigate with relative path because navigate does not know the current, so it does not add something
 		in front.
 		{relativeTo:} can be used to include some path before
--- 11-132 -> Passing parameters
-      133 -> Fetching parameters from URL 133 use ActivatedRoute again here. We use it to get url parameters.
-      		See user.component.ts
-      134 -> The 133 could break...how we solve this.... If we add one more link like "Anna" then when we press
-      		this link the info wont load... Use of Observables because here we have an asynchronous task...
+-- 11-132 -> Passing parameters e.g. /:id/:name
+      133 -> Fetching parameters from URL 133 use ActivatedRoute again here. We use it to get url parameters to make a user.
+      		from /:id/:name
+      		See user.component.ts 
+      134 -> IMPORTANT The 133 could break...how we solve this.... If we add one more link like "Anna" then when we press
+      		this link the info wont load (because the component user is already loaded)... Use of Observable (e.g. params) because here we have an asynchronous task...
 		Using the code this.route.params we listen to params changes
       135 -> behind the scenes Angular removes the subscription automatically. This section shows how
-      		a manual destructor may be used.
+      		a manual destructor may be used. Subscription to updated URL parameters ITIS NOT necessary to put
+		a destructor...no need for Subscription here...observable as it was used initially will be destructed
+		when component is destructed.  QUESTION on ngONInit this.user = {...}
       136 -> queryParams, fragment (servers.component.html) 	
       	     At the second half we do this programmatically	
       137 -> retrieve querys and fragments
