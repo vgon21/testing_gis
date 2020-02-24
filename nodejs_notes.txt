@@ -151,10 +151,16 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 
 -- 11 ROUTING !!!
 -- 11-123 -> 127
-	127 -> what to do to avoid loading application when pressing some link !!!!! (routerLink)
-	129 -> style the active router link...special handle for the '/' root link
+	126 -> Point to put directive <router-outlet></router-outlet> to display components
+	127 -> what to do to avoid reloading application when pressing some link !!!!! (routerLink)
+	128 -> explaining absolute and relative paths
+	129 -> style the active router link...special handle for the '/' root link, to display it as not selected
+		when it is not selected   routerLinkActive, routerLinkActiveOptions
 	130 -> how to navigate using a button etc.... inject Router into the constructor of the typescript class
 	131 -> ActivatedRoute holds the currently activated route (relativeTo property). So inject the ActivatedRoute object
+		We can use navigate with relative path because navigate does not know the current, so it does not add something
+		in front.
+		{relativeTo:} can be used to include some path before
 -- 11-132 -> Passing parameters
       133 -> Fetching parameters from URL 133 use ActivatedRoute again here. We use it to get url parameters.
       		See user.component.ts
