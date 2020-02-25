@@ -206,8 +206,9 @@ next() emits a value, error() an error, complete()  etc.
 	Just make sure that a subscription is there and ngOnDestroy to unsubscribe from subscription
 
 -- 15 HANDLING FORMS
--- 15-185 use of ngModel like two-way data binding example
--- 15-186 Submit form
+-- 15-185 use of ngModel like two-way data binding example... We have a javascript representation of the form
+-- 15-186 Submit form   
+	use of ngSubmit for the default behaviour of the form, ngForm to take the javascript object of the form
 -- 15-190 Validation
 
 -- 18  HTTP REQUESTS
