@@ -186,12 +186,12 @@ code written till here	     2020/02/05
       142  page not found case
       144 keep routing in a single module
       145 Guards not important
-      146-147 Protecting routes with canActivate... A service for protecting routes  AuthGuard implements CanActivate interface
+      146-147 Protecting routes with canActivate Guard... A service for protecting routes  AuthGuard implements CanActivate interface
       		147 protect children
-      149 CanDeactivate   protecting the user of accidentally go away a "page"	
+      149 CanDeactivate type of Guard  protecting the user of accidentally go away from a "page"	
       150 Error page that could be used by all components
       151 VERY VERY IMPORTANT !!! dynamically define if a page is to be displayed or not
-      -152 in speed...      
+      -152 ...      
 
 -- 13 Observables (data sources coming from user actions, http requests etc. It is about asynchronous tasks that
 we don't want to block our program). Observable and the Observer (our code). Observer handles data, error, completion.
@@ -200,6 +200,7 @@ Angular embraces Observables. It is offered by rxjs package
 We ngOnDestroy in .ts file of the component
 -- 13-172 A custom observable
 next() emits a value, error() an error, complete()  etc.
+-- 13-175 IMPORTANT we use pipes and in there we can use operators (to transform data before we get them) like map(...)
 
 -- 15 HANDLING FORMS
 -- 15-186 Submit form
