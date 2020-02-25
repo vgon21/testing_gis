@@ -202,8 +202,11 @@ We ngOnDestroy in .ts file of the component
 next() emits a value, error() an error, complete()  etc.
 -- 13-175 IMPORTANT we use pipes and in there we can use operators (to transform data before we get them) like map(...)
     You can build a chain of steps....e.g. first use filter(...) operators and then map(...) The example is there	
+-- 13-176 replace service-eventEmitter-subscribe with Subject
+	Just make sure that a subscription is there and ngOnDestroy to unsubscribe from subscription
 
 -- 15 HANDLING FORMS
+-- 15-185 use of ngModel like two-way data binding example
 -- 15-186 Submit form
 -- 15-190 Validation
 
