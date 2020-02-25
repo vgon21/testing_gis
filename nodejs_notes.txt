@@ -201,6 +201,7 @@ We ngOnDestroy in .ts file of the component
 -- 13-172 A custom observable
 next() emits a value, error() an error, complete()  etc.
 -- 13-175 IMPORTANT we use pipes and in there we can use operators (to transform data before we get them) like map(...)
+    You can build a chain of steps....e.g. first use filter(...) operators and then map(...) The example is there	
 
 -- 15 HANDLING FORMS
 -- 15-186 Submit form
