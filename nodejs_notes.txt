@@ -180,8 +180,8 @@ code written till here	     2020/02/05
       138 -> constructing dynamic links for navigation
       	Add code modifications here to be able to proceed to 139
       139  for child routes.....child routes....separate outlets are required
-      140  code to go to editServer page VERY USEFUL because it adds code so that not to allow access to a user
-      141  configuring and maintaining !!!! the queryparameters....queryParamsHandling
+      140  code to go to editServer page VERY USEFUL because it adds code so that NOT TO ALLOW access to a user
+      141  configuring and maintaining !!!! the queryparameters....queryParamsHandling  PRESERVE | MERGE params
       		using the last minute of this video we can be sure that we use the last information on query parameters
       142  page not found case
       144 keep routing in a single module
