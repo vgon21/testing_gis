@@ -208,8 +208,18 @@ next() emits a value, error() an error, complete()  etc.
 -- 15 HANDLING FORMS
 -- 15-185 use of ngModel like two-way data binding example... We have a javascript representation of the form
 -- 15-186 Submit form   
+	use of ngModel to name elements the Angular way
 	use of ngSubmit for the default behaviour of the form, ngForm to take the javascript object of the form
--- 15-190 Validation
+	HTMLFormElement instead of ElementRef
+	ngForm  it tells Angular to give programmer access to the form(javscript object) Angular created automatically
+-- 15-187 Nothing important just the properties of a form object
+-- 15-188 Access to ngForm without passing it as parameter in onSubmit. Using @ViewChild
+-- 15-189 Validation 
+-- 15-190 Validation builtin validators that Angular provides
+-- 15-191 Form state  disable submit button see app.component.css
+-- 15-192 Outputing Validation messages  use ngModel in the template e.g. #email="ngModel"  Very good example !!!
+-- 15-193 Default values for fields
+
 
 -- 18  HTTP REQUESTS
 Setup Firebase
