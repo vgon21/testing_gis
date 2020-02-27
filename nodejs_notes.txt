@@ -218,7 +218,14 @@ next() emits a value, error() an error, complete()  etc.
 -- 15-190 Validation builtin validators that Angular provides
 -- 15-191 Form state  disable submit button see app.component.css
 -- 15-192 Outputing Validation messages  use ngModel in the template e.g. #email="ngModel"  Very good example !!!
--- 15-193 Default values for fields
+-- 15-193 Default values for fields  property binding(one way binding)
+-- 15-194 two way binding
+-- 15-195 Group form controls using    ngModelGroup
+-- 15-196 Radio buttons
+-- 15-197 Setting and patching values in Forms  suggestUserName(). 
+	setValue sets all form's values
+	Use patch to avoid overwrite fields that are already filled.
+-- 15-198 	
 
 
 -- 18  HTTP REQUESTS
