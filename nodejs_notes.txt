@@ -256,4 +256,14 @@ For the compilation error https://stackoverflow.com/questions/56704164/angular-v
 -- 18-262 DELETE
 -- 18-263 handling errors using and rules from Firebase
 -- 18-264 using Subject for some error cases
+-- 18-265 another catchError mechanism
+-- 18-266
+			2nd part of this module
+-- 18-267 set headers If we want something custom HttpHeaders
+-- 18-268 add query params	HttpParams  Use this to easily enrich the url with parameter values
+
+
+
+	
+
 	
