@@ -232,14 +232,28 @@ For the compilation error https://stackoverflow.com/questions/56704164/angular-v
 
 
 -- 18  HTTP REQUESTS
-Setup Firebase
--- 18-256 in post example in import { map } the from is 'rxjs/operators' and not operator
+-- 18-252 Post, put, patch requests have a BODY
+-- 18-253 Setup Firebase
+-- 18-254 HttpClientModule module is used in app.module.ts to be able to use throughout the project
+	Inject httpclient in constructor of our component
+	POST request how to.   If no subscription then no post is executed...since Angular understands that
+	the client is not interested in the response.
+-- 18-255 GET simple request	
+-- 18-256 transform response data.transform response datain post example in import { map } the from is 'rxjs/operators' 
+	and not operator
 	map function rewraps the data into an observable so that we are able to use it after PIPE
 	After map we ll take a clean array of objects, instead of strange keys etc.
 	... pulls out all key-value pairs from the nested object responseData[key], we use {} to make
 	a new javascript object and finally we add an id:key to use the serial number automatically produced
 	as id of the javascript object.
 	The postsArray is used as input to .subscribe
+-- 18-257 GET and POST with type description of the data to be transferred
+-- 18-258 load the posts and show them on screen	
+-- 18-259 show loading indicator
 -- 18-260 stuck here	
-
+-- 18-261 service and component working together. If we transfer the http in the service then we have
+	to return the whole GET/POST as a result-observable and then in the app.component.ts to subscribe to the results
+-- 18-262 DELETE
+-- 18-263 handling errors using and rules from Firebase
+-- 18-264 using Subject for some error cases
 	
