@@ -100,7 +100,22 @@ A decorator '@' is a class enrichment -> We transform the class into something e
    All components MUST HAVE A TEMPLATE...they may not have selector or style
 -- 02_21 just like the template we can have replace styleUrls with styles in order to put a style directly in here
 -- 02-22 QUESTION ???? selector: '[app-servers]'   does not work
+-- 02-25 String interpolation:  {{ data }}
+-- 2-26 Property binding:		
+	[property] = "data"
+	property may be any property of an HTML element
+
+	Event binding:			$event to pass data to a function
+	(event) = "expression"
+	e.g.(click)=function name in .ts
+	All events in angular (or just html with ng-):
+	https://www.w3schools.com/angular/angular_events.asp
 -- 02-30 $event contains the data related to the fired event
+-- 02-32 !!!! very important to listen e.g. to an input and fill a variable
+			in .ts or update this variable and update input element value
+		For two-way data binding Enable ngModel by importing FormsModule
+		Instead of using Event binding we can use two-way data binding
+		e.g. [(ngModel)]="..."
 -- 02-35 Directives are instructions in the DOM
 	Directives have selector. Components we could say are directives.
 	Directives with template and without template
@@ -261,8 +276,16 @@ For the compilation error https://stackoverflow.com/questions/56704164/angular-v
 			2nd part of this module
 -- 18-267 set headers If we want something custom HttpHeaders
 -- 18-268 add query params	HttpParams  Use this to easily enrich the url with parameter values
+-- 18-269 different types of responses
+-- 18-270 change the response body TYPE  observe: response/events etc. The DEFAULT type of the response is JSON
+-- 18-271 IMPORTANT Intercepter before the request leaves the application. The "next" parameter of implemented "intercept" 		function forwards the request to let it continue its journey
+-- 18-272 Modify the request object...e.g. append 
+	headers in existing headers REQUEST INTERCEPTOR
+-- 18-273 RESPONSE INTERCEPTOR
+-- 18-274 Multiple interceptor...It is very IMPORTANT to put them in the right order in PROVIDERS in app.module.ts
 
-
+Dynamic component   loaded programmtically...
+-- 21-311 how to close an alert the right way
 
 	
 
