@@ -1,4 +1,16 @@
 https://getbootstrap.com/docs/4.4/layout/overview/
 
+
+First see Grid tutorial, then the comparison of Grid and Flex and then watch Flex tutorial
+
+
+Grid vs Flexbox by Maximilian
+https://www.youtube.com/watch?v=RSIclWvNTdQ
+
+Grid is two dimensional. Defines rows and columns, the total layout
+Flexbox is one dimensional and can be used by Grid for a cell or a row
+
 Grid by Maximilian
 https://www.youtube.com/watch?v=qmPmwdshCMw
+
+Flexbox by Maximilian
