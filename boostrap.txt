@@ -15,10 +15,24 @@ Grid uses Flex as an extra tool(functionalities) for components' more flexible a
 
 Grid by Maximilian
 --------------------
+https://getbootstrap.com/docs/4.1/layout/grid/
+
 https://www.youtube.com/watch?v=qmPmwdshCMw
 
 Flexbox by Maximilian's colleague
 ----------------------------------
-https://www.youtube.com/watch?v=siKKg8Y_tQY
+https://getbootstrap.com/docs/4.0/utilities/flex/
+
+1st part https://www.youtube.com/watch?v=siKKg8Y_tQY
+2nd part https://www.youtube.com/watch?v=RdlEEfx912M
+
+Flex container is the parent and flex items are the children
+Parent side properties:
+  display, flex
+  flex-flow, justify-content, align-content, align-items
+Using display css property we transform an element to a parent container
+Children side properties:
+  order, flex, align-self
+  
 
 
