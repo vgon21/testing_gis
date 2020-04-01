@@ -165,6 +165,7 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 -- 09-112 cross component communication
 
 -- 11 ROUTING !!!
+<base href="/">  in index.hml IMPORTANT
 -- 11-123 -> 127
 	126 -> Point to put directive <router-outlet></router-outlet> to display components
 	127 -> what to do to avoid reloading application when pressing some link !!!!! (routerLink)
