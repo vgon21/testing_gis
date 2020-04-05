@@ -1,5 +1,7 @@
 https://www.npmjs.com/package/systeminformation
 
+npm install winston express-winston (for logging http requests)
+
 socket.io
 socket.io auth
 https://www.npmjs.com/package/socketio-jwt-auth
