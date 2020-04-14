@@ -1,7 +1,12 @@
+MQTT
+-------
 http://www.steves-internet-guide.com/using-node-mqtt-client/
 
 http://www.steves-internet-guide.com/using-javascript-mqtt-client-websockets/
 
+Angular behind the scenes
+--------------------------
+https://medium.com/siam-vit/how-an-angular-app-work-behind-the-scenes-angular-flow-dcc4d1df27bd
 
 QUICK REFERENCE:
 https://angular.io/guide/cheatsheet
