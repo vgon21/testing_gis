@@ -59,13 +59,11 @@ Update npm
 ------------
 Run [sudo] npm install -g npm  (sudo  is only required on Mac/ Linux)
 
+
 Updating the CLI for Angular
 
-[sudo] npm uninstall -g angular-cli @angular/cli 
-
-npm cache clean 
-
-[sudo] npm install -g @angular/cli
+Run ng update @angular/core@8 @angular/cli@8  --allow-dirty
+Run ng update @angular/core @angular/cli  --allow-dirty
 
 angular commands
 -----------------
