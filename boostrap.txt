@@ -34,5 +34,12 @@ Using display css property we transform an element to a parent container
 Children side properties:
   order, flex, align-self
   
+  
+BootStrap tables options
+=======================
+
+https://bootstrap-table.com/docs/api/table-options/
+https://examples.bootstrap-table.com/#options/single-select.html#view-source
+https://examples.bootstrap-table.com/#options/detail-view-icon.html
 
 
