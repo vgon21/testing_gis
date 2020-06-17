@@ -51,3 +51,6 @@ https://keepgrowing.in/angular/how-to-build-a-custom-collapsible-sidebar-navigat
 
 button to top
 https://www.npmjs.com/package/ng2-go-top-button
+
+diagrams in Angular with svg
+https://www.codeproject.com/Articles/5249902/Creating-Amazing-Diagrams-using-Angular-and-SVG
