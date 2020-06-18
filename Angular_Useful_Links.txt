@@ -54,3 +54,6 @@ https://www.npmjs.com/package/ng2-go-top-button
 
 diagrams in Angular with svg
 https://www.codeproject.com/Articles/5249902/Creating-Amazing-Diagrams-using-Angular-and-SVG
+
+Material angular lib (table tutorial):
+https://blog.angular-university.io/angular-material-data-table/
