@@ -55,5 +55,11 @@ https://www.npmjs.com/package/ng2-go-top-button
 diagrams in Angular with svg
 https://www.codeproject.com/Articles/5249902/Creating-Amazing-Diagrams-using-Angular-and-SVG
 
+ng-bootstrap table (full version) that works as expected
+https://stackblitz.com/edit/ngbootstrap-table-11rejp?file=app%2Fcountry.service.ts
+
 Material angular lib (table tutorial):
 https://blog.angular-university.io/angular-material-data-table/
+
+angular tables examples
+https://www.ngdevelop.tech/best-angular-tables/
