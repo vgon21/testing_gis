@@ -66,3 +66,6 @@ https://www.ngdevelop.tech/best-angular-tables/
 
 Pipes and maps
 https://medium.com/angular-in-depth/reading-the-rxjs-6-sources-map-and-pipe-94d51fec71c2
+
+Map, Filter, Take, and all that Jazz
+https://medium.com/angular-in-depth/build-your-own-observable-part-4-map-filter-take-and-all-that-jazz-40388e2ab2b3
