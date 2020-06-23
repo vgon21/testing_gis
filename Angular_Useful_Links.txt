@@ -63,3 +63,6 @@ https://blog.angular-university.io/angular-material-data-table/
 
 angular tables examples
 https://www.ngdevelop.tech/best-angular-tables/
+
+Pipes and maps
+https://medium.com/angular-in-depth/reading-the-rxjs-6-sources-map-and-pipe-94d51fec71c2
