@@ -74,3 +74,6 @@ https://medium.com/angular-in-depth/build-your-own-observable-part-4-map-filter-
 
 ng-bootstrap theming (not read yet)
 https://www.telerik.com/blogs/create-angular-app-themes-with-bootstrap-4-sass-kendo-ui
+
+ng-select npmjs (+ with checkboxes)
+https://www.npmjs.com/package/@ng-select/ng-select
