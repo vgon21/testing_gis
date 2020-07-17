@@ -63,6 +63,8 @@ https://blog.angular-university.io/angular-material-data-table/
 
 angular tables examples
 https://www.ngdevelop.tech/best-angular-tables/
+pagination in server 
+https://www.google.com/search?q=angular+pagination+server+side&rlz=1C1GCEU_enGR823GR823&oq=angular+paging+in+serve&aqs=chrome.1.69i57j0l5j69i64.49346j0j4&sourceid=chrome&ie=UTF-8
 
 Pipes and maps
 https://medium.com/angular-in-depth/reading-the-rxjs-6-sources-map-and-pipe-94d51fec71c2
