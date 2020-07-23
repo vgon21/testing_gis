@@ -34,6 +34,10 @@ Derek Banas OO Javascript....very interesting from ECMA 5.1 downwards
 double equals vs triple equals  (https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a he)
 
 
+JWT authentication
+-------------------
+JWT explanation and debugger to test various ways of producing a token (https://jwt.io/introduction/ )
+
 nodejs the right way
 =====================
 enable telnet in windows 10 -> run this (dism /online /Enable-Feature /FeatureName:TelnetClient)
