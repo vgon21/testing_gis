@@ -1,3 +1,7 @@
+Promises async-await (good for loops)
+https://lavrton.com/javascript-loops-how-to-handle-async-await-6252dd3c795/
+
+
 proxy=http://DEFENSE\vgon:Atowango11@dfsrvproxy3.intracomdefense.com:8080/
 https-proxy=http://DEFENSE\vgon:Atowango11@dfsrvproxy3.intracomdefense.com:8080/
 strict-ssl=false
