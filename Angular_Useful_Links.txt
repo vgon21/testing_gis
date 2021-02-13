@@ -1,3 +1,9 @@
+UPLOAD FILES
+-------------
+https://bezkoder.com/angular-11-node-js-file-upload/
+https://bezkoder.com/node-js-express-file-upload/
+https://www.npmjs.com/package/angular-file-uploader
+
 MQTT
 -------
 http://www.steves-internet-guide.com/using-node-mqtt-client/
