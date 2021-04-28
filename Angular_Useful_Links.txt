@@ -1,4 +1,9 @@
+Theme switcher
+---------------
+https://stackblitz.com/edit/dark-mode-with-angular-and-css-variables-5bd4xa?file=src%2Fapp%2Ftheme%2Fsymbols.ts
+
 Angular from css to scss
+--------------------------
 https://medium.com/motf-creations/migrate-from-css-to-scss-stylesheets-for-existing-angular-application-d61f8061f5b7
 
 
