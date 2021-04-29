@@ -1,5 +1,6 @@
 Theme switcher
 ---------------
+https://developapa.com/angular-theming/  READ THIS 
 https://betterprogramming.pub/turn-off-the-lights-with-angular-dark-mode-194241f491ae
 https://stackblitz.com/edit/dark-mode-with-angular-and-css-variables-5bd4xa?file=src%2Fapp%2Ftheme%2Fsymbols.ts
 
