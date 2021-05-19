@@ -1,3 +1,8 @@
+Angular Gauge chart
+---------------------
+https://github.com/recogizer/angular-gauge-chart
+
+
 Theme switcher
 ---------------
 https://coryrylan.com/blog/theming-angular-apps-with-css-custom-properties
