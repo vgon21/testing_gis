@@ -96,6 +96,10 @@ https://stackblitz.com/edit/ngbootstrap-table-11rejp?file=app%2Ftable-complete.t
 
 Pipes and maps
 https://medium.com/angular-in-depth/reading-the-rxjs-6-sources-map-and-pipe-94d51fec71c2
+intervals and timers
+https://fireship.io/lessons/rxjs-basic-pro-tips/
+https://www.learnrxjs.io/learn-rxjs/operators/utility/finalize
+
 
 rxjs operators
 Map, Filter, Take, and all that Jazz
