@@ -1,6 +1,7 @@
 Angular Gauge chart
 ---------------------
-https://github.com/recogizer/angular-gauge-chart
+https://www.npmjs.com/package/ngx-gauge
+https://github.com/recogizer/angular-gauge-chart   NOT USED anymore
 
 
 Theme switcher
