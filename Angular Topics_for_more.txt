@@ -15,6 +15,9 @@ Using Subject you can call next() outside of Subject
 Subject is also an Observable with extra features.
 It is recommended to use Subject
 
+
+RxJs STATE MANAGEMENT and stuff....STORE 
+==========================================
 Redux
 ======
 State management pattern  345 video
