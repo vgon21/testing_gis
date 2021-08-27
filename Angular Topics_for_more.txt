@@ -1,0 +1,22 @@
+Observables and Operators
+==========================
+videos on important operators:
+https://academind.com/tutorials/understanding-rxjs/
+
+all operators:
+https://www.learnrxjs.io/learn-rxjs/operators
+
+
+
+Use Subject instead of EventEmitter ???
+=========================================
+next() is called from inside an Observable.
+Using Subject you can call next() outside of Subject
+Subject is also an Observable with extra features.
+It is recommended to use Subject
+
+Redux
+======
+State management pattern  345 video
+
+NgRx is Angular's implementation of Redux
