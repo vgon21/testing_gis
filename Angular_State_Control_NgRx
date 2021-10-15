@@ -2,6 +2,7 @@ NgRx is Angular implementation of Redux
 
 Actions
 =========
+Action is used by the Reducers
 Action has an identifier and the payload
 
 Reducer checks for the kind of action that is to be executed
@@ -10,3 +11,7 @@ The Reducer returns a new State.
 This State is forwarded to Application Store
 So the State is changed immutably (the old state is not touched. The old State is copied and edited)
 Then the old State is overwritten by the new State
+
+Reducers execute ONLY SYNCHRONOUS code.
+
+Actions may be an http request
