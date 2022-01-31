@@ -42,4 +42,12 @@ https://bootstrap-table.com/docs/api/table-options/
 https://examples.bootstrap-table.com/#options/single-select.html#view-source
 https://examples.bootstrap-table.com/#options/detail-view-icon.html
 
+Details in modals
+==================
+in styles.css  we used 
+.modal {
+  z-index: 2000;
+}
+to resolve the issue that ngx-loading is over the confirmation popup modal
 
+https://getbootstrap.com/docs/4.2/components/modal/
