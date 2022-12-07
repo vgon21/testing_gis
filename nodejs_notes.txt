@@ -1,3 +1,6 @@
+...dots operator
+https://www.freecodecamp.org/news/three-dots-operator-in-javascript/
+
 Socket disconnection examples
 https://www.tabnine.com/code/javascript/functions/net/Socket/removeAllListeners
 
