@@ -1,5 +1,6 @@
 ...dots operator
 https://www.freecodecamp.org/news/three-dots-operator-in-javascript/
+https://stackoverflow.com/questions/56155922/how-to-delete-property-from-spread-operator
 
 Socket disconnection examples
 https://www.tabnine.com/code/javascript/functions/net/Socket/removeAllListeners
