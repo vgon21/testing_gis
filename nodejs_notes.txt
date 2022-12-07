@@ -298,6 +298,9 @@ For the compilation error https://stackoverflow.com/questions/56704164/angular-v
 Dynamic component   loaded programmtically...
 -- 21-311 how to close an alert the right way
 
+-- 25 (NgRx Redux)
+	Think of it like a large data store object
+	NgRx is Angular implementation of Redux
 	
 
 	
