@@ -306,5 +306,12 @@ Dynamic component   loaded programmtically...
 	Think of it like a large data store object
 	NgRx is Angular implementation of Redux
 	
+-- 25-355  In order to update the State by a component an Action must be dispatched containig the type
+		and the payload
+	The action does not arrive directly to the store...it goes through Reducer
+	The Reducer checks the type and then it updated the state in an IMMUTABLE way...that is it first
+	copies current data and then updates it. That is the reduced state is stored in the Store.
+	
+	
 
 	
