@@ -293,7 +293,7 @@ For the compilation error https://stackoverflow.com/questions/56704164/angular-v
 -- 18-268 add query params	HttpParams  Use this to easily enrich the url with parameter values
 -- 18-269 different types of responses
 -- 18-270 change the response body TYPE  observe: response/events etc. The DEFAULT type of the response is JSON
--- 18-271 IMPORTANT Intercepter before the request leaves the application. The "next" parameter of implemented "intercept" 		function forwards the request to let it continue its journey
+-- 18-271 IMPORTANT Interceptοr before the request leaves the application. The "next" parameter of implemented "intercept" 		function forwards the request to let it continue its journey
 -- 18-272 Modify the request object...e.g. append 
 	headers in existing headers REQUEST INTERCEPTOR
 -- 18-273 RESPONSE INTERCEPTOR
@@ -306,11 +306,13 @@ Dynamic component   loaded programmtically...
 	Think of it like a large data store object
 	NgRx is Angular implementation of Redux
 	
--- 25-355  In order to update the State by a component an Action must be dispatched containig the type
+-- 25-355  In order to update the State by a component an Action must be dispatched containing the type
 		and the payload
 	The action does not arrive directly to the store...it goes through Reducer
 	The Reducer checks the type and then it updated the state in an IMMUTABLE way...that is it first
 	copies current data and then updates it. That is the reduced state is stored in the Store.
+	
+	
 	
 	
 
