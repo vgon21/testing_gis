@@ -1,0 +1,1 @@
+https://blog.logrocket.com/understanding-design-patterns-typescript-node-js/
