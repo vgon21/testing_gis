@@ -160,6 +160,7 @@ https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp
 	Another example to play with (https://dzone.com/articles/understanding-output-and-eventemitter-in-angular)
 -- 05-71,72 Encapsulation for views-css-templates USE encapsulation after header to avoid having component-specific names
 		and apply CSS to other components as well
+		Two-way binding good example: https://angular.io/guide/two-way-binding
 -- References of html elements can be used only in template parts and not in typescript
 -- Hooks ngOnChanges etc.
 
