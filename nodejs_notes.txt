@@ -236,6 +236,7 @@ next() emits a value, error() an error, complete()  etc.
     You can build a chain of steps....e.g. first use filter(...) operators and then map(...) The example is there	
 -- 13-176 replace service-eventEmitter-subscribe with Subject
 	Just make sure that a subscription is there and ngOnDestroy to unsubscribe from subscription
+-- 13-177 Operators on observables... observable.pipe() Eveyr objervable has a pipe method
 
 -- 15 HANDLING FORMS
 -- 15-185 use of ngModel like two-way data binding example... We have a javascript representation of the form
