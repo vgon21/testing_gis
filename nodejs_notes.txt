@@ -262,7 +262,7 @@ next() emits a value, error() an error, complete()  etc.
 -- 15-198 Take the form values and store them in an array json...
 For the compilation error https://stackoverflow.com/questions/56704164/angular-viewchild-error-expected-2-arguments-but-got-1
 @ViewChild('h', {static: false}) signupForm: NgForm;  //put this instead of that of the tutorial
--- 15-199 Reset the form or reset it passing an array to fill fields with specific values	
+-- 15-199 Reset the form or reset it passing an array to fill fields with specific values	NEW "patchValue(...)" VERY USEFUL to overwrite data of a form
 
 
 -- 18  HTTP REQUESTS
