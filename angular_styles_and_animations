@@ -2,8 +2,18 @@
 This selector will ensure those styles are only targeting the app-root element.
 (https://blog.angular-university.io/angular-host-context/)
 
+WIDE START
 -- 2-11  Application-Wide styles
 -- 2-12   Where to download e.g. bootstrap and how to add it in the project
 -- 2-13 angular.json   paths in there must be relative to index.html file and not angular.json
    WE HAVE TO STOP ng serve if we change anything in stylesheets
   WE check the "network" tab of developer tools to check what is used
+-- 2-14 bootstrap using npm MOST PREFERABLE
+WIDE END
+
+View encapsulation understanding
+-- 2-19 What Shadow DOM is
+   (https://angular.io/guide/view-encapsulation)
+   (https://kevinkreuzer.medium.com/the-difference-between-angulars-emulated-shadow-dom-and-native-shadow-dom-9b2c81546b85)
+The browsers in general do not support shadow DOM, so Angular emulates it
+-- 2-17 nesting css attributes
