@@ -16,4 +16,5 @@ View encapsulation understanding
    (https://angular.io/guide/view-encapsulation)
    (https://kevinkreuzer.medium.com/the-difference-between-angulars-emulated-shadow-dom-and-native-shadow-dom-9b2c81546b85)
 The browsers in general do not support shadow DOM, so Angular emulates it
--- 2-17 nesting css attributes
+-- 2-17 nesting css attributes    just to remember   css ->> #vena   html id="vena"
+-- 2-18  deep   the css property is applied to child component and to child of child component as well...The whole chain of child components
