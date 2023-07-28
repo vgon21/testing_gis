@@ -1,1 +1,9 @@
+:host()
+This selector will ensure those styles are only targeting the app-root element.
+(https://blog.angular-university.io/angular-host-context/)
 
+-- 2-11  Application-Wide styles
+-- 2-12   Where to download e.g. bootstrap and how to add it in the project
+-- 2-13 angular.json   paths in there must be relative to index.html file and not angular.json
+   WE HAVE TO STOP ng serve if we change anything in stylesheets
+  WE check the "network" tab of developer tools to check what is used
