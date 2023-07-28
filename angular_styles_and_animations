@@ -18,4 +18,4 @@ View encapsulation understanding
 The browsers in general do not support shadow DOM, so Angular emulates it
 -- 2-17 nesting css attributes    just to remember   css ->> #vena   html id="vena"
 -- 2-18  "/deep/" or ">>>"   the css property is applied to child component and to child of child component as well...The whole chain of child components
--- 2-34 stopped here
+-- 2-34 stopped here Renderer2
