@@ -318,6 +318,10 @@ Dynamic component   loaded programmtically...
 	The action does not arrive directly to the store...it goes through Reducer
 	The Reducer checks the type and then it updated the state in an IMMUTABLE way...that is it first
 	copies current data and then updates it. That is the reduced state is stored in the Store.
+
+NgRX Store Reduc
+-- 26-376 a custom way of defining reducers and actions to understand the concept better
+	check local project
 	
 	
 	
