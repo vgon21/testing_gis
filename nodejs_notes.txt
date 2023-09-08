@@ -322,6 +322,8 @@ Dynamic component   loaded programmtically...
 NgRX Store Reduc
 -- 26-376 a custom way of defining reducers and actions to understand the concept better
 	check local project
+-- 26-387 contains the final project with these modern tutorial. The sub-chapters that follow have to do with
+	recipes project and probably older way of working
 	
 	
 	
