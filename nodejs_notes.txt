@@ -1,3 +1,6 @@
+service workers
+see udemy chapter 29
+
 localStorage
 https://jscrambler.com/blog/working-with-angular-local-storage
 
