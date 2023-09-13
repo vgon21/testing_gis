@@ -327,6 +327,7 @@ NgRX Store Reduc
 	check local project
 -- 26-387 contains the final project with these modern tutorial. The sub-chapters that follow have to do with
 	recipes project and probably older way of working
+-- 26-388 FROM THIS POINT STARTS the tutorial on recipes project
 	
 	
 	
