@@ -3,3 +3,6 @@ https://reflectoring.io/node-logging-winston/
 
 syslog
 https://www.npmjs.com/package/winston-syslog?activeTab=readme
+
+examples for file storage (not /var/log/messages)
+https://www.geeksforgeeks.org/how-to-create-api-to-view-logs-in-node-js/
