@@ -1,1 +1,5 @@
+winston
 https://reflectoring.io/node-logging-winston/
+
+syslog
+https://www.npmjs.com/package/winston-syslog?activeTab=readme
