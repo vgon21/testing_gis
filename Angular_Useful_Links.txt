@@ -3,6 +3,20 @@ Angular 16 jwt auth
 https://github.com/bezkoder/angular-16-jwt-auth
 My project : C:\myprojects_learning\javascript\dark_light_efforts\angBootstrap1
 
+  TEST ->
+  https://jfhr.me/angular-bootstrap-theme-switcher/demo/index.html
+
+  see stackblitz
+  https://stackoverflow.com/questions/62108585/how-to-toggle-dark-theme-in-angular-when-i-click-on-the-switch
+  
+  https://jfhr.me/angular-bootstrap-theme-switcher/
+
+  https://dev.to/pahanperera/implement-light-dark-mode-in-angular-42ff
+
+  PAY ???
+  https://blog.angulartraining.com/how-to-implement-a-dark-theme-with-css-and-angular-2cfd98b9455d
+
+
 Angular Gauge chart
 ---------------------
 https://www.npmjs.com/package/ngx-gauge
