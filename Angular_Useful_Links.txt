@@ -1,3 +1,7 @@
+Angular 16 jwt auth
+---------------------
+https://github.com/bezkoder/angular-16-jwt-auth
+
 Angular Gauge chart
 ---------------------
 https://www.npmjs.com/package/ngx-gauge
