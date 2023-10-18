@@ -1,6 +1,9 @@
-Angular 16 jwt auth
+Angular 16 jwt auth    TO CHECK
 ---------------------
 https://github.com/bezkoder/angular-16-jwt-auth
+
+LIGHT/DARK THEMING SWITCHER      TO CHECK
+---------------------------------------
 My project : C:\myprojects_learning\javascript\dark_light_efforts\angBootstrap1
 
   TEST ->
