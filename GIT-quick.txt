@@ -1,0 +1,109 @@
+https://academind.com/tutorials/git-the-basics/
+git reset --hard HEAD       (going back to HEAD)
+Quickly need to find a Git command? Here is your little helper:
+
+git init: Initialize a Git repository in the current folder
+git status: Show the current status of your Git repository (the “working tree” status)
+git add .: Track changes of all files in your Repository
+git commit -m "your message": Save updated code to a new Commit named “your message”
+git commit --amend -m "some message" (in case we want to change the commit description)
+git log: List all Commits inside your Branch
+git show theHash of a commit to see the details of a commit
+git diff (show the current changes comparing to last commit)
+git restore fileName (it discards any changes in fileName)
+git checkout branch-name: Jump to the last Commit of a Branch
+git checkout commitid Jump to a specific Commit of a Branch (commitid should be the ID of the Commit you want to checkout)
+git checkout -- .: Jump back to the last Commit and remove any untracked changes
+get reset --hard HEAD: Turn the selected Commit into the new HEAD namely going back to HEAD 
+git reset --hard HEAD^ (remove latest commit)
+git branch: List all Branches inside your Repository
+git branch -r : to see the remote repository's branches
+git branch -a : lists all local and remote branches
+git checkout -b branch-name: Create a new Branch named branch-name
+git merge branch-name: Merge two Branches, branch-name is the Branch you merge with the Branch you’re currently working in
+git branch -D branch-name: Delete the Branch named branch-name
+
+***To get current git url
+git config --get remote.origin.url
+
+Push branch to remote
+git push -u origin <branch>
+
+To pull all branches
+git pull --all
+
+
+
+*** git add .   -> stages all changes to current downwards (and into sub-directories of current directory)
+	git add -A (stage all files wherever you are in the folders' tree)
+	git rm -r cached . 	(unstage files in current directory) -r -> means recursively
+			--- This is to remove a file from git repository
+			Here are the steps you can follow:
+			1- Remove the file from your local repository using the following command:
+			-git rm --cached <FILE_NAME>
+			This will remove the file from the repository but keep it in your local file system.
+			2-Perform the uninstall using the command:
+			-git commit -m "Remove <file_name> from repository"	
+
+*** git branch  -> displays a branches list
+git branch --track tmn_hybrid_mode origin/tmn_hybrid_mode   It include a branch that has never been checked out locally
+
+Using checkout you go either to another branch or to a commit in the current branch
+*** git checkout hashstring goes to specific commit of a branch
+
+*** git checkout master -> we go back in the latest Commit of the Branch (our HEAD)
+
+Deleting our latest Commit is easy now. Copy the ID of the Commit you want to jump back to (NOT the ID of the Commit you want to delete) and use 
+*** git reset --hard HEAD or ID (HEAd goes to last commit...ID as described above)	
+(ID should be the ID of the Commit). 
+That’s it, we now reset the HEAD and deleted all later Commits.
+
+# Reverting Unstaged Changes
+Let’s again add some code:
+
+<p>Hello</p>
+<p>Some text</p>
+<div>Another text</div>
+
+<div>Something I don't need</div>
+Turns out that we actually don’t need that code and we would like to delete it - the changes were not commited though. Besides manually deleting our code (which won’t work that easily if you changed a lot of code in different places), 
+*** git checkout -- . 
+let’s us jump back to our last Commit (which doesn’t include these uncomitted changes of course).
+
+*** git branch branchname   will create a branch but will not jump into it
+*** git checkout -b new-feature creates a branch and jumps into it
+will create that new Branch named “new-feature”:
+
+go to branch you want to merge with new_feature (e.g. master) and run this command
+*** git merge new-feature
+
+*** git branch -D new-feature		deletes the branch
+
+
+Push tag(s) to master
+git tag                         # see tag lists
+$ git push origin <tag-name>      # push a single tag
+$ git push --tags                 # push all local tags 
+
+See remote tags
+git ls-remote
+
+Delete remote tag
+git push --delete origin BOEING-final
+or
+git push origin -d branch-name
+
+
+
+git log origin/master ^master	(when "git fetch" you can run this command to compate the logs)
+
+============================================================================================
+Academing... see example with rebase (almost 2nd half of the video)
+https://www.youtube.com/watch?v=CRlGDDprdOQ
+
+https://www.youtube.com/watch?v=3fUbBnN_H2c
+
+15' git init etc.
+
+1.34' MERGING CONFLICTS (push, pull....make changes in files...add them again and then commit and push)
+1.42' REBASE
