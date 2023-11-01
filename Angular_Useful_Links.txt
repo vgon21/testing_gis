@@ -1,6 +1,11 @@
+Angular Architects (very good site to be informed about latest developments)
+https://www.angulararchitects.io/en/
+
+
 Angular 16 jwt auth    TO CHECK
 ---------------------
 https://github.com/bezkoder/angular-16-jwt-auth
+
 
 LIGHT/DARK THEMING SWITCHER      TO CHECK
 ---------------------------------------
