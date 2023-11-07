@@ -133,6 +133,8 @@ intervals and timers
 https://fireship.io/lessons/rxjs-basic-pro-tips/
 https://www.learnrxjs.io/learn-rxjs/operators/utility/finalize
 
+rxjs operators very good to understand
+https://academind.com/tutorials/understanding-rxjs
 
 rxjs operators
 Map, Filter, Take, and all that Jazz
