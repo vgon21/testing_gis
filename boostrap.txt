@@ -51,3 +51,11 @@ in styles.css  we used
 to resolve the issue that ngx-loading is over the confirmation popup modal
 
 https://getbootstrap.com/docs/4.2/components/modal/
+
+
+(UI Libraries
+  ngx-bootstrap
+      https://valor-software.com/ngx-bootstrap/#/
+  ng-boostrap
+      https://ng-bootstrap.github.io/#/home  
+)
