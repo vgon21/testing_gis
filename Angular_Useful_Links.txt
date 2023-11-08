@@ -139,6 +139,8 @@ https://academind.com/tutorials/understanding-rxjs
 rxjs operators
 Map, Filter, Take, and all that Jazz
 https://medium.com/angular-in-depth/build-your-own-observable-part-4-map-filter-take-and-all-that-jazz-40388e2ab2b3
+https://www.learnrxjs.io/learn-rxjs/operators
+https://academind.com/tutorials/understanding-rxjs
 
 
 ng-bootstrap theming (not read yet)
